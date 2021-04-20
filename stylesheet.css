@@ -1,0 +1,71 @@
+body {
+    font-family: "Lato", sans-serif;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    /* background-color: #111; */
+    overflow-x: hidden;
+    
+  }
+  
+  .navblock {
+    margin:auto;
+    width: 100%;
+    height: 90%;
+    display: flex;
+  }
+
+  .navblock_text {
+    margin: auto;
+    width: 100%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    border-right: 2px solid;
+    border-color: #E5E8E8;
+  }
+
+  .navblock_text a {
+    padding: 26px 16px 26px 16px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  
+  .navblock_text a:hover {
+    color: #CFD8DC;
+  }
+
+  .copyright {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 10%;
+  }
+
+  .copyright_text {
+    margin: auto;
+    text-align: center;
+    color: #818181;
+  }
+  
+  /* Style page content */
+  .main {
+    margin-left: 20%; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 5% 5% 0% 5%;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
