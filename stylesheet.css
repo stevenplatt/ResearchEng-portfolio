@@ -59,8 +59,12 @@ body {
   /* Style page content */
   .main {
     margin-left: 20%; /* Same as the width of the sidenav */
-    font-size: 28px; /* Increased text to enable scrolling */
+    font-size: 24px; /* Increased text to enable scrolling */
     padding: 5% 5% 0% 5%;
+  }
+
+  h4 {
+    color:  green;
   }
   
   /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
