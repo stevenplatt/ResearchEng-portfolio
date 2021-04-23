@@ -84,8 +84,8 @@ a {
 .about_image_1{
   display: block;
   margin-top: 10%;
-  width: 350px;
-  height:350px;
+  width: 300px;
+  height:300px;
   object-fit:cover;
   border-radius:50%;
   margin-left: auto;
@@ -112,7 +112,10 @@ a {
     text-align: center;
     float: none;
   }
-  .main {margin-left: 0;}
+  .main {
+    margin-left: 0;
+    padding: 2%;
+  }
 }
 
 
