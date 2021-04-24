@@ -1,7 +1,14 @@
 body {
   font-family: "Lato", sans-serif;
 }
-  
+
+/* Style page content */
+.main {
+  margin-left: 20%; /* Same as the width of the sidenav */
+  font-size: 22px; /* Increased text to enable scrolling */
+  padding: 5% 5% 10% 5%;
+}
+
 .sidenav {
   height: 100%;
   width: 20%;
@@ -48,13 +55,6 @@ body {
   width: 100%;
   color: #818181;
   text-align: center;
-}
-
-/* Style page content */
-.main {
-  margin-left: 20%; /* Same as the width of the sidenav */
-  font-size: 22px; /* Increased text to enable scrolling */
-  padding: 5%;
 }
 
 .about_accent {
@@ -107,14 +107,21 @@ a {
     height: auto;
     position: relative;
     box-shadow: 0px 0px;
+    box-shadow: 0px 10px 40px #F0F3F4;
   }
   .sidenav a {
     text-align: center;
     float: none;
   }
+  .navblock_text a {
+    padding: 16px;
+  }
+  .footer {
+    display: none;
+  }
   .main {
     margin-left: 0;
-    padding: 3%;
+    padding: 20% 4% 20% 4%;
   }
 }
 
