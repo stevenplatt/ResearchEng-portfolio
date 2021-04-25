@@ -13,9 +13,8 @@
             <a href="./index.html">About</a>
             <a href="./resume.html">Resume</a>
             <a href="./research.html">Research</a>
-            <a href="./blog.html">Blog</a>
+            <!--  <a href="./blog.html">Blog</a> -->
             <a style="color:#3498DB" href="./portfolio.html">Portfolio</a>
-            <a href="">Login</a>
         </div>
     </div>
     <div class="footer">
@@ -24,8 +23,68 @@
 </div>
 
 <div class="main">
-  <h2>Cloud Native Portfolio</h2>
-  <p>A selection of my cloud native and distributed systems programming.</p>
+  <h2>Backend Portfolio</h2>
+  <p>A selection of my cloud native and backend systems programming.</p><br>
+
+    <div class="portfolio_project">
+        <img class="portfolio_image" src="./img/python_logo.webp" alt="Python Programming">
+        
+        <h3 class="portfolio_accent">Python Network Simulator</h3>
+            
+        <p>A simulator to recreate the mobility and tower association of a device in a 5G network. 
+            The system uses random walk behavior and monte carlo sampling to show connection behavior across 10,000 simulations.</p>
+        <p><a target="blank" href="">Gitub Source</a></p>
+    </div>
+
+    <div class="portfolio_project">
+        <img class="portfolio_image" src="./img/api_logo.webp" alt="Python API">
+        
+        <h3 class="portfolio_accent">Blockchain for OpenWRT</h3>
+            
+        <p>A compact and resource-light blockchain designed to run on the OpenWRT WiFi router platform.
+            Written in the Python, the blockchain uses Python Flask to deliver its API interface which includes functions for managing network peers, issuing blocks, and running network consesus. </p>
+            
+        <p><a target="blank" href="https://github.com/stevenplatt/tcp_air">Gitub Source</a></p>
+    </div>
+
+    <div class="portfolio_project">
+        <img class="portfolio_image" src="./img/twitter_logo.webp" alt="Twitter">
+        
+        <h3 class="portfolio_accent">SIP Trunking at Twitter</h3>
+            
+        <p>During periods of early growth, Twitter deployed a number of isolated and non-standard phone systems that had become expensive and difficult to support.  
+            To manage the complexity, Twitter hired me to unify its networks and migrate them to cloud deployment.
+
+            The result was a fully virtualized phone network, combined with a Twilio Cloud SIP trunking. 
+            This new design reduced recurring carrier costs 72%.
+            </p>
+            
+        <p><a target="blank" href="https://www.youtube.com/watch?v=lFzqYgF2MPQ">Twilio Conference Talk</a></p>
+    </div>
+
+    <div class="portfolio_project">
+        <img class="portfolio_image" src="./img/java_logo.webp" alt="Python Programming Language">
+        
+        <h3 class="portfolio_accent">OnmiDrive IoT Platform</h3>
+            
+        <p>OmniDrive is a prototype platform that allows users to store and take their personal cabin settings between shared vehicles. 
+            The front end of the platform is an android application written in Java. A backend control and RFID network is run on an arduino with code written in its modified version of C.
+        </p>
+        <p><a target="blank" href="">Gitub Source</a></p>
+    </div>
+
+    <div class="portfolio_project">
+        <img class="portfolio_image" src="./img/aws_logo.webp" alt="Amazon Web Services">
+        
+        <h3 class="portfolio_accent">telecomsteve.com</h3>
+            
+        <p>Telecom Steve is a flat file site designed to be lightweight, easy to maintain, and run directly from within Amazon S3. 
+            Amazon Route53 is used for domain routing combined with Amazon Cloudfront for CDN compression and caching. 
+            With no scripting, external fonts or libraries, the site receives a score of 99/100 from Google Page Speed Index for both desktop and mobile. </p>
+            
+        <p><a target="blank" href="https://github.com/stevenplatt/telecomsteve">Gitub Source</a></p>
+    </div>
+
 </div>
 
 </body>

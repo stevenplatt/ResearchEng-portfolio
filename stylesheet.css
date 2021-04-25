@@ -73,15 +73,11 @@ body {
   color:  green;
 }
 
-.portfolio_accent {
-  color:  green;
-}
-
 a {
   color: #3498DB;
 }
 
-.about_image_1{
+.about_image{
   display: block;
   margin-top: 10%;
   width: 300px;
@@ -101,12 +97,33 @@ a {
   padding: 5% 5% 5% 5%;
 }
 
+
+
+.portfolio_accent {
+  color:  #F1C40F;
+}
+
+.portfolio_project {
+  position: relative;
+  min-height: 300px;
+  padding: 3% 0% 3% 0%;
+}
+
+.portfolio_image {
+  max-width: 300px;
+  max-height:300px;
+  margin-right: 5%;
+  margin-left: 5%;
+  float: right;
+}
+
+
+
 @media screen and (max-width: 700px) {
   .sidenav {
     width: 100%;
     height: auto;
     position: relative;
-    box-shadow: 0px 0px;
     box-shadow: 0px 10px 40px #F0F3F4;
   }
   .sidenav a {
@@ -122,6 +139,17 @@ a {
   .main {
     margin-left: 0;
     padding: 20% 4% 20% 4%;
+  }
+
+  .portfolio_image {
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
+    max-width: 80%;
+  }
+
+  .portfolio_project {
+    padding: 10% 0% 10% 0%;
   }
 }
 
