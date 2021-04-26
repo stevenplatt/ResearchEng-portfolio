@@ -73,17 +73,28 @@ body {
   color:  green;
 }
 
+.speaking_accent {
+  color:  #8E44AD;
+}
+
 a {
   color: #3498DB;
 }
 
-.about_image{
+.about_photo{
   display: block;
   margin-top: 10%;
   width: 300px;
   height:300px;
   object-fit:cover;
   border-radius:50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about_logo{
+  display: block;
+  width: 40%;
   margin-left: auto;
   margin-right: auto;
 }
