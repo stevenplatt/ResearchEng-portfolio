@@ -6,6 +6,7 @@ body {
 .main {
   margin-left: 20%; /* Same as the width of the sidenav */
   font-size: 22px; /* Increased text to enable scrolling */
+  line-height: 30px;
   padding: 10%;
 }
 
