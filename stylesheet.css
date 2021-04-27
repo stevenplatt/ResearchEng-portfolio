@@ -6,7 +6,7 @@ body {
 .main {
   margin-left: 20%; /* Same as the width of the sidenav */
   font-size: 22px; /* Increased text to enable scrolling */
-  padding: 5% 5% 10% 5%;
+  padding: 10%;
 }
 
 .sidenav {
@@ -70,20 +70,17 @@ body {
 }
 
 .blog_accent {
-  color:  green;
-}
-
-.speaking_accent {
   color:  #8E44AD;
 }
 
 a {
   color: #3498DB;
+  text-decoration: none;
 }
 
 .about_photo{
   display: block;
-  margin-top: 10%;
+  margin-top: 5%;
   width: 300px;
   height:300px;
   object-fit:cover;
@@ -108,8 +105,6 @@ a {
   padding: 5% 5% 5% 5%;
 }
 
-
-
 .portfolio_accent {
   color:  #F1C40F;
 }
@@ -128,7 +123,43 @@ a {
   float: right;
 }
 
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
+.flex-container > div {
+  background-color: white;
+  box-shadow: 2px 2px 20px #EAECEE;
+  width: 45%;
+  margin: 5% 0% 5% 0%;
+  min-height: 25vh;
+  line-height: 60px;
+  font-size: 25px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.flex_text {
+  width: 90%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #8E44AD;
+}
+
+.flex_date {
+  width: 95%;
+  padding-right: 5%;
+  color: #CFD8DC;
+  text-align: end;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
 
 @media screen and (max-width: 700px) {
   .sidenav {
@@ -160,7 +191,15 @@ a {
   }
 
   .portfolio_project {
-    padding: 10% 0% 10% 0%;
+    padding: 0%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .flex-container > div {
+    width: 100%;
+    min-height: 30vh;
+    margin: 10% 0% 10% 0%;
   }
 }
 
