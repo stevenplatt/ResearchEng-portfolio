@@ -7,6 +7,10 @@ ResearchEng Portfolio is a flat file website written entirely in HTML and CSS. I
 
 The site is designed to be served directly from object storage such as Amazon S3 but can also be deployed using Apache, Nginx, or other web server. Example instructions for serving a website from Amazon S3 can be found [here](https://medium.com/@kyle.galbraith/how-to-host-a-website-on-s3-without-getting-lost-in-the-sea-e2b82aa6cd38).
 
+**Google Page Speed Index: 100/100**
+
+![ResearchEng preview](/img/screenshots/page_speed.png)
+
 ## Desktop Page Layouts
 
 - About
