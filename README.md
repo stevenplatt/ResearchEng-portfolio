@@ -15,7 +15,7 @@ The site is designed to be served directly from obkect storage such as Amazon S3
 - Portfolio
 - Blog
 - Blog Post
-
+ 
 ### About Page:
 
 ![ResearchEng preview](/img/screenshots/about_page.png)
