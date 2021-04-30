@@ -46,3 +46,6 @@ The site is designed to be served directly from obkect storage such as Amazon S3
 ## Mobile Page Layouts
 
 All pages of the ResearchEng website template are also optimized for mobile. 
+
+![ResearchEng preview](/img/screenshots/mobile_layout.png)
+
