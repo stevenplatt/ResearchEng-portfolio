@@ -16,30 +16,33 @@ The site is designed to be served directly from obkect storage such as Amazon S3
 - Blog
 - Blog Post
 
-### About
+### About Page:
 
 ![ResearchEng preview](/img/screenshots/about_page.png)
 
 
-### Resume
+### Resume Page: 
 
 ![ResearchEng preview](/img/screenshots/resume_page.png)
 
-### Research
+### Research Page:
 
 ![ResearchEng preview](/img/screenshots/research_page.png)
 
-### Portfolio
+### Portfolio Page:
 
 ![ResearchEng preview](/img/screenshots/portfolio_page.png)
 
-### Blog
+### Blog Page:
 
 ![ResearchEng preview](/img/screenshots/blog_page.png)
 
-### Blog Post
+### Blog Post Page:
 
 ![ResearchEng preview](/img/screenshots/blog_post_page.png)
 
+
+
 ## Mobile Page Layouts
 
+All pages of the ResearchEng website template are also optimized for mobile. 
