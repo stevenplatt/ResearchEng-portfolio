@@ -173,12 +173,12 @@ a {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  color: #8E44AD;
 }
 
 .blog_date {
   width: 95%;
   padding-right: 5%;
+  font-size: 20px;
   color: #CFD8DC;
   text-align: end;
   margin-block-start: 0em;
