@@ -8,6 +8,14 @@ ResearchEng Portfolio is a flat file website written entirely in HTML and CSS. I
 The site is designed to be served directly from object storage such as Amazon S3 but can also be deployed using Apache, Nginx, or other web server. Example instructions for serving a website from Amazon S3 can be found [here](https://medium.com/@kyle.galbraith/how-to-host-a-website-on-s3-without-getting-lost-in-the-sea-e2b82aa6cd38).
 
 
+### Run this site locally using Nodejs
+Note that Nodejs must be already installed to your local machine ([Stack Overflow Instructions](https://stackoverflow.com/questions/6084360/using-node-js-as-a-simple-web-server)).
+
+>1. npm install http-server -g
+>1. git clone https://github.com/stevenplatt/telecomsteve-website.git
+>1. cd telecomsteve-website
+>1. npx http-server
+
 ## Desktop Page Layouts
 
 - About
