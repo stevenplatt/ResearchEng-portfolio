@@ -27,33 +27,44 @@ Note that Nodejs must be already installed to your local machine ([Stack Overflo
 - Portfolio
 - Blog
 - Blog Post
+
+<br />
  
 ### About Page:
 
 ![ResearchEng preview](/img/screenshots/about_page.png)
 
+<br />
 
 ### Resume Page: 
 
 ![ResearchEng preview](/img/screenshots/resume_page.png)
 
+<br />
+
 ### Research Page:
 
 ![ResearchEng preview](/img/screenshots/research_page.png)
+
+<br />
 
 ### Portfolio Page:
 
 ![ResearchEng preview](/img/screenshots/portfolio_page.png)
 
+<br />
+
 ### Blog Page:
 
 ![ResearchEng preview](/img/screenshots/blog_page.png)
+
+<br />
 
 ### Blog Post Page:
 
 ![ResearchEng preview](/img/screenshots/blog_post_page.png)
 
-
+<br />
 
 ## Mobile Page Layouts
 
@@ -61,15 +72,21 @@ All pages of the ResearchEng website template are also optimized for mobile.
 
 ![ResearchEng preview](/img/screenshots/mobile_layout.png)
 
+<br />
+
 **Google Page Speed Index: 100/100** 
 
 For both desktop and mobile.
 
 ![ResearchEng preview](/img/screenshots/page_speed.png)
 
+<br />
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/stevenplatt/ResearchEng-portfolio. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+
+<br />
 
 ## License
 
