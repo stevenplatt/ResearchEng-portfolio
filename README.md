@@ -19,7 +19,16 @@ Note that Nodejs must be already installed to your local machine ([Stack Overflo
 
 <br /><br />
 
-test
+### Run this site locally using Docker
+
+Note that Docker must already be installed to your local machine. ([Docker install instructions](https://docs.docker.com/get-docker/)).
+
+>1. docker pull telecomsteve/research-eng-portfolio:main
+>1. docker run --name telecomsteve -d -p 8080:80 telecomsteve/research-eng-portfolio:main
+
+The website is now reachable at http://localhost:8080 in your browser.
+
+<br /><br />
 
 ## Desktop Page Layouts
 
