@@ -13,8 +13,8 @@ The site is designed to be served directly from object storage such as Amazon S3
 Note that Nodejs must be already installed to your local machine ([Stack Overflow Instructions](https://stackoverflow.com/questions/6084360/using-node-js-as-a-simple-web-server)).
 
 >1. npm install http-server -g
->1. git clone https://github.com/stevenplatt/telecomsteve-website.git
->1. cd telecomsteve-website
+>1. git clone https://github.com/stevenplatt/ResearchEng-portfolio.git
+>1. cd ResearchEng-portfolio/website/
 >1. npx http-server
 
 <br /><br />
@@ -32,37 +32,37 @@ Note that Nodejs must be already installed to your local machine ([Stack Overflo
  
 ### About Page:
 
-![ResearchEng preview](/img/screenshots/about_page.png)
+![ResearchEng preview](website/img/screenshots/about_page.png)
 
 <br />
 
 ### Resume Page: 
 
-![ResearchEng preview](/img/screenshots/resume_page.png)
+![ResearchEng preview](website/img/screenshots/resume_page.png)
 
 <br />
 
 ### Research Page:
 
-![ResearchEng preview](/img/screenshots/research_page.png)
+![ResearchEng preview](website/img/screenshots/research_page.png)
 
 <br />
 
 ### Portfolio Page:
 
-![ResearchEng preview](/img/screenshots/portfolio_page.png)
+![ResearchEng preview](website/img/screenshots/portfolio_page.png)
 
 <br />
 
 ### Blog Page:
 
-![ResearchEng preview](/img/screenshots/blog_page.png)
+![ResearchEng preview](website/img/screenshots/blog_page.png)
 
 <br />
 
 ### Blog Post Page:
 
-![ResearchEng preview](/img/screenshots/blog_post_page.png)
+![ResearchEng preview](website/img/screenshots/blog_post_page.png)
 
 <br />
 
@@ -70,7 +70,7 @@ Note that Nodejs must be already installed to your local machine ([Stack Overflo
 
 All pages of the ResearchEng website template are also optimized for mobile. 
 
-![ResearchEng preview](/img/screenshots/mobile_layout.png)
+![ResearchEng preview](website/img/screenshots/mobile_layout.png)
 
 <br />
 
@@ -78,7 +78,7 @@ All pages of the ResearchEng website template are also optimized for mobile.
 
 For both desktop and mobile.
 
-![ResearchEng preview](/img/screenshots/page_speed.png)
+![ResearchEng preview](website/img/screenshots/page_speed.png)
 
 <br />
 
