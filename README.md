@@ -1,4 +1,11 @@
 # ResearchEng Portoflio
+
+<br />
+
+### CI/CD Build Status: ![](https://github.com/stevenplatt/ResearchEng-portfolio/workflows/docker/badge.svg)
+
+<br />
+
 An html portfolio website template for Research Engineers 
 
 **Demo Link**: https://www.telecomsteve.com
