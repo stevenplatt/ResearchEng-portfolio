@@ -2,7 +2,7 @@
 
 <br />
 
-### CI/CD Build Status: ![](https://github.com/stevenplatt/ResearchEng-portfolio/workflows/docker/badge.svg)
+### CI/CD Build Status: ![](https://github.com/stevenplatt/ResearchEng-portfolio/workflows/pipeline/badge.svg)
 
 <br />
 

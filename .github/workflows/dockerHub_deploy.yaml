@@ -1,6 +1,6 @@
 # this pipeline builds a docker image of the ResearchEng Portfolio site and pushes it to DockerHub. 
 
-name: docker
+name: pipeline
 
 on:
   push:
