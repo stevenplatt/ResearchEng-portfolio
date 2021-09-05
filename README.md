@@ -8,7 +8,7 @@
 
 An html portfolio website template for Research Engineers 
 
-**Demo Link**: http://demo.telecomsteve.com
+**Demo Link**: https://www.telecomsteve.com
 
 ResearchEng Portfolio is a flat file website written entirely in HTML and CSS. It is designed to be fast and easy to maintain, while also including a section for research, which is often not included in standard developer portfolio templates.
 
