@@ -2,9 +2,13 @@
 
 An html portfolio website template for Research Engineers.
 
+<br />
+
 ### CI/CD Build Status: ![](https://github.com/stevenplatt/ResearchEng-portfolio/workflows/pipeline/badge.svg)
 
 **Demo Link**: https://demo.telecomsteve.com
+
+<br />
 
 ResearchEng Portfolio is a portfolio template designed to be fast and easy to maintain. It includes a section for research, which is often not included in standard developer portfolio templates.
 
