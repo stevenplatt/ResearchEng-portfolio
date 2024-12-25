@@ -2,11 +2,7 @@
 
 An html portfolio website template for Research Engineers.
 
-<br />
-
 ### CI/CD Build Status: ![](https://github.com/stevenplatt/ResearchEng-portfolio/workflows/pipeline/badge.svg)
-
-<br />
 
 **Demo Link**: https://demo.telecomsteve.com
 
