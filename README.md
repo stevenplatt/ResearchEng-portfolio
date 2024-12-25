@@ -26,17 +26,6 @@ Note that Nodejs must be already installed to your local machine ([Stack Overflo
 
 <br /><br />
 
-### Run this site locally using Docker
-
-Note that Docker must already be installed to your local machine. ([Docker install instructions](https://docs.docker.com/get-docker/)).
-
->1. docker pull telecomsteve/research-eng-portfolio:main
->1. docker run --name telecomsteve -d -p 8080:80 telecomsteve/research-eng-portfolio:main
-
-The website is now reachable at http://localhost:8080 in your browser.
-
-<br /><br />
-
 ## Desktop Page Layouts
 
 - About
@@ -50,37 +39,37 @@ The website is now reachable at http://localhost:8080 in your browser.
  
 ### About Page:
 
-![ResearchEng preview](website/img/screenshots/about_page.png)
+![ResearchEng preview](img/screenshots/about_page.png)
 
 <br />
 
 ### Resume Page: 
 
-![ResearchEng preview](website/img/screenshots/resume_page.png)
+![ResearchEng preview](img/screenshots/resume_page.png)
 
 <br />
 
 ### Research Page:
 
-![ResearchEng preview](website/img/screenshots/research_page.png)
+![ResearchEng preview](img/screenshots/research_page.png)
 
 <br />
 
 ### Portfolio Page:
 
-![ResearchEng preview](website/img/screenshots/portfolio_page.png)
+![ResearchEng preview](img/screenshots/portfolio_page.png)
 
 <br />
 
 ### Blog Page:
 
-![ResearchEng preview](website/img/screenshots/blog_page.png)
+![ResearchEng preview](img/screenshots/blog_page.png)
 
 <br />
 
 ### Blog Post Page:
 
-![ResearchEng preview](website/img/screenshots/blog_post_page.png)
+![ResearchEng preview](img/screenshots/blog_post_page.png)
 
 <br />
 
@@ -88,7 +77,7 @@ The website is now reachable at http://localhost:8080 in your browser.
 
 All pages of the ResearchEng website template are also optimized for mobile. 
 
-![ResearchEng preview](website/img/screenshots/mobile_layout.png)
+![ResearchEng preview](img/screenshots/mobile_layout.png)
 
 <br />
 
@@ -96,7 +85,7 @@ All pages of the ResearchEng website template are also optimized for mobile.
 
 For both desktop and mobile.
 
-![ResearchEng preview](website/img/screenshots/page_speed.png)
+![ResearchEng preview](img/screenshots/page_speed.png)
 
 <br />
 
