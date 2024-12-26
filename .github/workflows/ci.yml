@@ -25,14 +25,14 @@ jobs:
      - name: Upload Demo Website
        run: |
          gcloud components install gsutil
-         gsutil -m cp -r css gs://demo.telecomsteve/
-         gsutil -m cp -r html gs://demo.telecomsteve/
-         gsutil -m cp -r img gs://demo.telecomsteve/
-         gsutil -m cp -r js gs://demo.telecomsteve/
-         gsutil -m cp LICENSE gs://demo.telecomsteve/
-         gsutil -m cp README.md gs://demo.telecomsteve/
-         gsutil web set -m html/index.html -e html/404.html gs://demo.telecomsteve/
-         gsutil -m acl ch -r -u AllUsers:R gs://demo.telecomsteve/
+         gsutil -m cp -r css gs://demo.telecomsteve.com/
+         gsutil -m cp -r html gs://demo.telecomsteve.com/
+         gsutil -m cp -r img gs://demo.telecomsteve.com/
+         gsutil -m cp -r js gs://demo.telecomsteve.com/
+         gsutil -m cp LICENSE gs://demo.telecomsteve.com/
+         gsutil -m cp README.md gs://demo.telecomsteve.com/
+         gsutil web set -m html/index.html -e html/404.html gs://demo.telecomsteve.com/
+         gsutil -m acl ch -r -u AllUsers:R gs://demo.telecomsteve.com/
 
      - name: Upload Production Website  
        run: |
