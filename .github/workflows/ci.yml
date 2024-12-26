@@ -3,7 +3,8 @@ name: Continuous Integration and Deployment
 on:
   push:
     branches:
-      - main  # or your default branch
+      - main
+  workflow_dispatch:
 
 jobs:
   deploy:
@@ -12,22 +13,18 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Setup Google Cloud SDK
-        uses: google-github-actions/setup-gcloud@v2
+      - name: Google Auth
+        id: auth
+        uses: 'google-github-actions/auth@v2'
         with:
-          service_account_key: ${{ secrets.GOOGLE_CREDENTIALS }}
-          project_id: ${{ secrets.GCP_PROJECT_ID }} 
-          
+          credentials_json: '${{ secrets.GOOGLE_CREDENTIALS }}'
+
+      - name: Setup Cloud SDK
+        uses: 'google-github-actions/setup-gcloud@v2'
+
       - name: Upload to Google Cloud Storage
         run: |
-          # Ensure gsutil is installed
           gcloud components install gsutil
-          
-          # Copy contents recursively from .examples/telecomsteve to GCS bucket
           gsutil -m cp -r .examples/telecomsteve/* gs://telecomsteve-website/
-          
-          # Set website configuration
           gsutil web set -m index.html gs://telecomsteve-website/
-          
-          # Make objects public
           gsutil -m acl ch -r -u AllUsers:R gs://telecomsteve-website/
