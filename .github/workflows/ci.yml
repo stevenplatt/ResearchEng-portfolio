@@ -1,30 +1,41 @@
 name: Continuous Integration and Deployment
 
 on:
-  push:
-    branches:
-      - main
-  workflow_dispatch:
+ push:
+   branches:
+     - main
+ workflow_dispatch:
 
 jobs:
-  deploy:
-    runs-on: ubuntu-24.04
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+ deploy:
+   runs-on: ubuntu-24.04
+   steps:
+     - name: Checkout code
+       uses: actions/checkout@v4
 
-      - name: Google Auth
-        id: auth
-        uses: 'google-github-actions/auth@v2'
-        with:
-          credentials_json: '${{ secrets.GOOGLE_CREDENTIALS }}'
+     - name: Google Auth
+       id: auth
+       uses: 'google-github-actions/auth@v2'
+       with:
+         credentials_json: '${{ secrets.GOOGLE_CREDENTIALS }}'
 
-      - name: Setup Cloud SDK
-        uses: 'google-github-actions/setup-gcloud@v2'
+     - name: Setup Cloud SDK
+       uses: 'google-github-actions/setup-gcloud@v2'
 
-      - name: Upload to Google Cloud Storage
-        run: |
-          gcloud components install gsutil
-          gsutil -m cp -r examples/telecomsteve/* gs://telecomsteve-website/
-          gsutil web set -m index.html gs://telecomsteve-website/
-          gsutil -m acl ch -r -u AllUsers:R gs://telecomsteve-website/
+     - name: Upload Demo Website
+       run: |
+         gcloud components install gsutil
+         gsutil -m cp -r css gs://telecomsteve-demo/
+         gsutil -m cp -r html gs://telecomsteve-demo/
+         gsutil -m cp -r img gs://telecomsteve-demo/
+         gsutil -m cp -r js gs://telecomsteve-demo/
+         gsutil -m cp LICENSE gs://telecomsteve-demo/
+         gsutil -m cp README.md gs://telecomsteve-demo/
+         gsutil web set -m html/index.html -e html/404.html gs://telecomsteve-demo/
+         gsutil -m acl ch -r -u AllUsers:R gs://telecomsteve-demo/
+
+     - name: Upload Production Website  
+       run: |
+         gsutil -m cp -r examples/telecomsteve/* gs://telecomsteve-website/
+         gsutil web set -m index.html -e 404.html gs://telecomsteve-website/
+         gsutil -m acl ch -r -u AllUsers:R gs://telecomsteve-website/
