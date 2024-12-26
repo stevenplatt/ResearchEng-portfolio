@@ -25,6 +25,6 @@ jobs:
       - name: Upload to Google Cloud Storage
         run: |
           gcloud components install gsutil
-          gsutil -m cp -r .examples/telecomsteve/* gs://telecomsteve-website/
+          gsutil -m cp -r examples/telecomsteve/* gs://telecomsteve-website/
           gsutil web set -m index.html gs://telecomsteve-website/
           gsutil -m acl ch -r -u AllUsers:R gs://telecomsteve-website/
