@@ -1,6 +1,6 @@
 // nav-loader.js
 document.addEventListener('DOMContentLoaded', () => {
-    fetch('./sidenav.html')  // Adjusted path
+    fetch('./html/sidenav.html') 
       .then(response => response.text())
       .then(data => {
         document.getElementById('nav-placeholder').innerHTML = data;
@@ -11,5 +11,5 @@ document.addEventListener('DOMContentLoaded', () => {
           currentLink.style.color = '#3498DB';
         }
       })
-      .catch(error => console.error('Error loading navigation:', error));  // Added error handling
+      .catch(error => console.error('Error loading navigation:', error));
   });
