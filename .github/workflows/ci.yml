@@ -39,10 +39,8 @@ jobs:
          gsutil -m cp LICENSE gs://demo.telecomsteve.com/
          gsutil -m cp README.md gs://demo.telecomsteve.com/
          gsutil web set -m index.html -e 404.html gs://demo.telecomsteve.com/
-         gsutil -m acl ch -r -u AllUsers:R gs://demo.telecomsteve.com/
 
      - name: Upload Production Website  
        run: |
          gsutil -m cp -r examples/telecomsteve/* gs://telecomsteve.com/
          gsutil web set -m index.html -e 404.html gs://telecomsteve.com/
-         gsutil -m acl ch -r -u AllUsers:R gs://telecomsteve.com/
