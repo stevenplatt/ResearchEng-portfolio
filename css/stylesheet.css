@@ -231,7 +231,7 @@ a {
 /* Update your media query */
 @media screen and (max-width: 1100px) {
     .hamburger-menu {
-        display: block !important;
+        display: block;
     }
 
     .sidenav {
