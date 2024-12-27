@@ -2,7 +2,7 @@
 
 An html portfolio website template for Research Engineers.
 
-**CI/CD Build Status** [![CI/CD Suite](https://github.com/stevenplatt/ResearchEng-Portfolio/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/stevenplatt/ResearchEng-Portfolio/actions/workflows/ci.yml)
+[![CI/CD Suite](https://github.com/stevenplatt/ResearchEng-Portfolio/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/stevenplatt/ResearchEng-Portfolio/actions/workflows/ci.yml)
 
 **Demo Link**: <https://demo.telecomsteve.com>
 
