@@ -14,7 +14,7 @@ body {
   height: 100%;
   width: 20%;
   position: fixed;
-  z-index: 1;
+  z-index: 1001;
   top: 0;
   left: 0;
   box-shadow: 2px 2px 20px #F0F3F4;
@@ -185,45 +185,102 @@ a {
   margin-block-end: 0em;
 }
 
-@media screen and (max-width: 700px) {
-  .sidenav {
-    width: 100%;
-    height: auto;
-    position: relative;
-    box-shadow: 0px 10px 40px #F0F3F4;
-  }
-  .sidenav a {
-    text-align: center;
-    float: none;
-  }
-  .navblock_text a {
-    padding: 16px;
-  }
-  .footer {
+.hamburger-menu {
     display: none;
-  }
-  .main {
-    margin-left: 0;
-    padding: 20% 4% 20% 4%;
-  }
-
-  .portfolio_image {
-    display: block;
-    max-width: 80%;
-  }
+    cursor: pointer;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1002;
+    background: white;
+    width: 100%; /* Full width */
+    padding: 20px 25px;
+    height: 40px; /* Fixed height for header */
 }
 
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #818181;
+    margin: 6px 0;
+    transition: 0.3s;
+}
+
+/* Hamburger animation classes */
+.change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+}
+
+.sidenav.active {
+    left: 0 !important;
+}
+
+.hamburger-menu {
+    display: none;
+}
+
+.no-scroll {
+    overflow: hidden;
+    position: fixed;
+}
+
+/* Update your media query */
 @media screen and (max-width: 1100px) {
-  .blog-container > div {
-    width: 100%;
-    min-height: 30vh;
-    margin: 10% 0% 10% 0%;
-  }
-  .portfolio-container > div {
-    width: 100%;
-  }
+    .hamburger-menu {
+        display: block;
+    }
 
+    .sidenav {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 50px; /* Start below the header */
+        left: -100%;
+        transition: left 0.2s ease-in-out;
+        background: white;
+    }
+
+    .sidenav.active {
+        left: 0; /* Slide in */
+    }
+
+    .sidenav a {
+        text-align: center;
+        padding: 15px 25px;
+    }
+
+    .main {
+        margin-left: 0;
+        padding: 20% 6% 20% 6%;
+    }
+
+    .portfolio_image {
+        display: block;
+        max-width: 80%;
+    }
+
+    .navblock_text a {
+        padding: 16px;
+    }
+
+    .footer {
+        display: none;
+      }
+
+    .blog-container > div {
+        width: 100%;
+        min-height: 30vh;
+        margin: 10% 0% 10% 0%;
+    }
+    .portfolio-container > div {
+        width: 100%;
+    }
 }
-
-
-
