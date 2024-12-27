@@ -14,7 +14,7 @@ The site is designed to be served directly from object storage such as Amazon S3
 
 >1. npm install http-server -g
 >1. git clone <https://github.com/stevenplatt/ResearchEng-portfolio.git>
->1. cd ResearchEng-portfolio/html/
+>1. cd ResearchEng-portfolio/
 >1. npx http-server
 
 ## Desktop Page Layouts
