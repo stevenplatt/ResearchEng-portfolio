@@ -223,10 +223,6 @@ a {
     left: 0 !important;
 }
 
-.hamburger-menu {
-    display: none;
-}
-
 .no-scroll {
     overflow: hidden;
     position: fixed;
@@ -235,7 +231,7 @@ a {
 /* Update your media query */
 @media screen and (max-width: 1100px) {
     .hamburger-menu {
-        display: block;
+        display: block !important;
     }
 
     .sidenav {
